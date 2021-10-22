@@ -13,9 +13,9 @@ namespace todovue.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AboutMe()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "您好，我是一個網站工程師，有空歡迎多多交流，謝謝";
 
             return View();
         }
