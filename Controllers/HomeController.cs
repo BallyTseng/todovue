@@ -20,7 +20,7 @@ namespace todovue.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult ToDo()
         {
             ViewBag.Message = "Your contact page.";
 
